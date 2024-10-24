@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         licznikI++;
-                        if(licznikI>=4){
+                        if(licznikI>=obrazki.size()){
                             licznikI = 0;
                         }
                         poleZdjecia.setImageResource(obrazki.get(licznikI).getZdjPsa());
